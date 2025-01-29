@@ -1,1 +1,0 @@
-const r=async()=>{try{const t=await fetch("https://soulmatechocolate.in/api/products");if(!t.ok)throw new Error(`HTTP error! status: ${t.status}`);return await t.json()}catch(t){console.error("Failed to fetch products:",t)}};export{r as g};
